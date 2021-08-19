@@ -1,0 +1,18 @@
+services:
+  instance1:
+    image: davisegundo88/lol3
+    container_name: exec1
+    volumes:
+      - ./instance1:/var/lol
+
+  instance2:
+    image: davisegundo88/lol3
+    container_name: exec2
+    volumes:
+      - ./instance2:/var/lol
+
+  instance3:
+    image: davisegundo88/lol3
+    container_name: exec3
+    volumes:
+      - ./instance3:/var/lol
